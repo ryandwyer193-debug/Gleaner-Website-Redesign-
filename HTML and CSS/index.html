@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Gleaner | Jamaica's News Source</title>
+  <meta name="description" content="Latest Jamaican news, sport, business and entertainment from The Gleaner.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="logo" href="index.html"><img src="images/logo.svg" alt="The Gleaner" width="320" height="70"></a>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">&#9776;</button>
+    <nav class="main-nav" id="main-nav" aria-label="Main">
+      <ul>
+        <li class="has-sub open">
+          <a href="#" aria-haspopup="true" aria-expanded="true">News <span aria-hidden="true">&#9662;</span></a>
+          <ul class="sub">
+            <li><a href="#">Local</a></li>
+            <li><a href="#">Caribbean</a></li>
+            <li><a href="#">International</a></li>
+            <li><a href="#">Crime and Courts</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Environment</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="#" aria-haspopup="true" aria-expanded="false">Sport <span aria-hidden="true">&#9662;</span></a>
+          <ul class="sub">
+            <li><a href="#">Football</a></li>
+            <li><a href="#">Cricket</a></li>
+            <li><a href="#">Athletics</a></li>
+            <li><a href="#">Netball</a></li>
+            <li><a href="#">Boxing</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="#" aria-haspopup="true" aria-expanded="false">Business <span aria-hidden="true">&#9662;</span></a>
+          <ul class="sub">
+            <li><a href="#">Markets</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Tourism</a></li>
+            <li><a href="#">Money and Rates</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="#" aria-haspopup="true" aria-expanded="false">Ent. <span aria-hidden="true">&#9662;</span></a>
+          <ul class="sub">
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Film and TV</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Celebrity</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="#" aria-haspopup="true" aria-expanded="false">Opinion <span aria-hidden="true">&#9662;</span></a>
+          <ul class="sub">
+            <li><a href="#">Editorial</a></li>
+            <li><a href="#">Columnists</a></li>
+            <li><a href="#">Letters</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="#" aria-haspopup="true" aria-expanded="false">Lifestyle <span aria-hidden="true">&#9662;</span></a>
+          <ul class="sub">
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Fashion</a></li>
+          </ul>
+        </li>
+        <li class="has-sub">
+          <a href="#" aria-haspopup="true" aria-expanded="false">More <span aria-hidden="true">&#9662;</span></a>
+          <ul class="sub">
+            <li><a href="#">Obituaries</a></li>
+            <li><a href="#">Classifieds</a></li>
+            <li><a href="#">E-Paper</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <a class="btn" href="#newsletter">Subscribe</a>
+  </header>
+
+  <div class="breaking" role="status">
+    <strong>Breaking</strong>
+    <a href="#">Access Financial targets $7b loan book</a>
+  </div>
+
+  <main id="main">
+    <section class="bento" aria-label="Top stories">
+      <article class="card hero">
+        <img src="images/hero-boxing.svg" alt="Reggae Boyz fight night">
+        <a href="#" class="card-body">
+          <span class="tag">Sports</span>
+          <h1>'This is Jamaica' — Speid buoyed by Reggae Boyz fight</h1>
+        </a>
+      </article>
+
+      <article class="card business">
+        <img src="images/business-sandals.svg" alt="Sandals resort">
+        <a href="#" class="card-body">
+          <span class="label">Business</span>
+          <h2>Sandals adding 7,000 jobs</h2>
+        </a>
+      </article>
+
+      <article class="card entertainment">
+        <img src="images/entertainment-lindo.svg" alt="Delroy Lindo">
+        <a href="#" class="card-body">
+          <span class="label">Entertainment</span>
+          <h2>Delroy Lindo: Home is where the heart is</h2>
+        </a>
+      </article>
+
+      <aside class="card weather" aria-label="Weather">
+        <span class="sun" aria-hidden="true">&#9728;</span>
+        <p class="temp">31°C</p>
+        <p class="muted">Kingston · Sunny</p>
+      </aside>
+
+      <article class="card video">
+        <video controls preload="none" poster="images/video-poster.svg" aria-label="Access Financial CEO on the future">
+          <source src="videos/access-financial-ceo.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+        <div class="video-caption">
+          <span class="label">Video</span>
+          <h2>&#9654; Access Financial CEO on the future</h2>
+        </div>
+      </article>
+
+      <article class="card plain news-a">
+        <a href="#">
+          <span class="label">News</span>
+          <h3>Nightmare witness — musician's 47 days in custody</h3>
+        </a>
+      </article>
+
+      <article class="card plain news-b">
+        <a href="#">
+          <span class="label">News</span>
+          <h3>Gun law to face Court of Appeal test</h3>
+        </a>
+      </article>
+
+      <aside class="card plain rates" aria-label="Exchange rate">
+        <h2 class="trend-title">Exchange rate</h2>
+        <p class="rate-pair">USD / JMD</p>
+        <p class="rate-value">158.20</p>
+      </aside>
+
+      <aside class="card plain trending">
+        <h2 class="trend-title">Trending</h2>
+        <ol>
+          <li><a href="#">Access Financial targets $7b loan book</a></li>
+          <li><a href="#">Pope draws 800,000 to Paris</a></li>
+        </ol>
+      </aside>
+
+      <article class="card feature culture">
+        <img src="images/culture-lattore.svg" alt="Tori Lattore">
+        <a href="#" class="card-body">
+          <span class="label">Entertainment</span>
+          <h3>Vocalist Tori Lattore eyes solo career</h3>
+          <p class="time">2 hours ago</p>
+        </a>
+      </article>
+
+      <article class="card feature drought">
+        <img src="images/news-drought.svg" alt="Dry school grounds">
+        <a href="#" class="card-body">
+          <span class="label">News</span>
+          <h3>Praying for the right rain — drought hits Claverty Cottage Primary</h3>
+          <p class="time">Yesterday</p>
+        </a>
+      </article>
+    </section>
+
+    <section class="newsletter" id="newsletter" aria-labelledby="news-title">
+      <div>
+        <h2 id="news-title">Get the day's top stories</h2>
+        <p>One email each morning with the headlines that matter in Jamaica.</p>
+      </div>
+      <form class="news-form" id="news-form" action="#" method="get">
+        <label for="email" class="sr-only">Email address</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        <button type="submit" class="btn">Subscribe</button>
+        <p class="form-msg" id="form-msg" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">The Gleaner</p>
+        <p class="footer-text">Jamaica's news, sport, business and entertainment.</p>
+      </div>
+      <div>
+        <h2>Sections</h2>
+        <ul>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Sport</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Entertainment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Company</h2>
+        <ul>
+          <li><a href="#">Quick Links</a></li>
+          <li><a href="#">Subscribe Now</a></li>
+          <li><a href="#">Advertise with Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Follow us</h2>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">X</a></li>
+          <li><a href="#">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">Group Project - Gleaner Website Redesign by Vinnette Brown and Ryan Dwyer.</p>
+  </footer>
+
+  <a class="to-top" href="#top" aria-label="Back to top">&#8593;</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
